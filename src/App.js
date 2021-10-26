@@ -15,7 +15,6 @@ import { Idei } from "./components/Idei"
 // コンポーネント名は必ず先頭を大文字から初めるようにすること
 const App = () => {
 
-
   // HOOKS　フック
   //ステートから返される要素は　変数、更新関数
   // 引数で初期値
