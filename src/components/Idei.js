@@ -4,12 +4,10 @@ import React from "react";
 
 export const Idei = (props) => {
     console.log(props);
-    const { color, fontSize, children } = props;
-    const contents = {
-        color,
-        fontSize,
-    }
-    return <p color="green">{children}</p>
+    // style属性内の値はstyleとして渡される
+    const { style, children } = props;
+
+    return <p style={style}>{children}</p>
 }
 
 // デフォルト　エクスポートしない
