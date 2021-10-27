@@ -76,7 +76,7 @@ const App = () => {
 
       <Colorfull color='blue'>お元気そうで何よりです。</Colorfull>
 
-      <Idei style={contentStyle}>私の名前は出射です</Idei>
+      <Idei style={contentStyle}>Ideiタグの効果</Idei>
 
       <button onClick={onof}>on off</button>
       <p>ステート{num}</p>
